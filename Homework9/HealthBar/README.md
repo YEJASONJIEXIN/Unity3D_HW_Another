@@ -152,9 +152,9 @@ IMGUI是其中GUI系统通常不保留有关GUI的信息，而是反复要求您
 ## 预制的使用方法
 1. IMGUI的实现就是一个脚本，所以直接将该脚本挂载到人物对象身上即可。
 2. UGUI预制的使用方法：
-从预设文件夹中把WorldHP拖出添加到人物对象的下面作为子对象，并将人物对象添加到WorldHP下的Slider中挂载的脚本HPChange的Character中。
-![在这里插入图片描述](image/3.png)
-![在这里插入图片描述](image/4.png)
+从预设文件夹中把WorldHP拖出添加到人物对象的下面作为子对象，并将人物对象添加到WorldHP下的Slider中挂载的脚本HPChange的Character中。<br>
+![在这里插入图片描述](image/3.png)<br>
+![在这里插入图片描述](image/4.png)<br>
 
 [演示视频](https://www.bilibili.com/video/BV1Kp4y167YC/)
 
