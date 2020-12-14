@@ -81,7 +81,8 @@ namespace HealthBar{
 }
 ```
 将以上代码挂载到人物身上即可。完成后将该对象做成预制，效果如下：
-![在这里插入图片描述](https://img-blog.csdnimg.cn/2020121413262441.png#pic_center)
+![在这里插入图片描述](image/1.png)
+
 ## UGUI实现
 按照课件中所描述的该方法的具体实现，在其基础上做一些修改即可。
 
@@ -121,8 +122,8 @@ namespace LookAtCamera{
     }
 }
 ```
-结果如下：
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20201214144319398.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNzE5NDM3,size_16,color_FFFFFF,t_70#pic_center)
+结果如下：<br>
+![在这里插入图片描述](image/2.png)
 ## 分析两种实现的优缺点
 看了一下网上的观点，感觉都差不多，自己也觉得蛮符号我的想法，就照着网上的来了：
 ### IMGUI
@@ -152,9 +153,10 @@ IMGUI是其中GUI系统通常不保留有关GUI的信息，而是反复要求您
 1. IMGUI的实现就是一个脚本，所以直接将该脚本挂载到人物对象身上即可。
 2. UGUI预制的使用方法：
 从预设文件夹中把WorldHP拖出添加到人物对象的下面作为子对象，并将人物对象添加到WorldHP下的Slider中挂载的脚本HPChange的Character中。
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20201214145253383.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNzE5NDM3,size_16,color_FFFFFF,t_70#pic_center)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20201214145253380.png#pic_center)
+![在这里插入图片描述](image/3.png)
+![在这里插入图片描述](image/4.png)
 
 [演示视频](https://www.bilibili.com/video/BV1Kp4y167YC/)
 
+[github](https://github.com/YEJASONJIEXIN/Unity3D_HW_Another/tree/master/Homework9/HealthBar)
 
